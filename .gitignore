@@ -116,10 +116,9 @@ hs_err_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij
 
-# ===== 项目自定义规则 =====
-# 仅忽略 Homework 与 Lab 目录下的 .iml 与 out/
 Homework/**/*.iml
 Homework/**/out/
 Lab/**/*.iml
 Lab/**/out/
 
+.DS_Store
